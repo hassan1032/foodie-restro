@@ -1,0 +1,81 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.Header{
+    width: 100%;
+    display: flex;
+    background: black;
+    height: 65px;
+    max-height: 65px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    box-shadow: 0 5px 20px -10px #000;
+    justify-content: space-between;
+}
+.logo_image{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.logo_image img{
+    width: 125px;
+}
+.Header .Nav_item{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+}
+.Header .Nav_item a{
+    text-decoration: none;
+    color: white;
+    margin-left: 13px;
+    transition: .3s;
+}
+.Header .Nav_item a:hover{
+    color: #c2b0c2;
+    font-weight: 800;
+}
+.LogIn_div{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 35px;
+}
+.LogIn_div a{
+    text-decoration: none;
+    color: white;
+    margin-left: 13px;
+    /* font-size: 15px; */
+    border: 1px solid white;
+    padding: 5px 12px;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: .4s;
+}
+.LogIn_div a:hover{
+    background: white;
+    color: black;
+}
+/* .image{
+    background-image: url(../Image/a.png);
+} */
+.Nav_item .nav_child1{
+    display: flex;
+}
+.nav_child2 button{
+    margin-right: 30px;
+    background: transparent;
+    color: white;
+    padding: 3px;
+}
